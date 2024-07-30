@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+.nav-left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: green;
+  margin: 10px;
+  padding: 30px;
+  gap: 20px;
+  position: relative;
+  width: 250px;
+}
+
+.search {
+  position: absolute;
+  left: 70px;
+  padding: 10px;
+}
+
+input {
+  background-color: grey;
+}
+
+.nav-right {
+  background-color: red;
+  width: 700px;
+}
+
+.main_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-main {
+  background-color: blue;
+  height: 800px;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.mid-main {
+  background-color: blue;
+  height: 1300px;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.right-main {
+  background-color: blue;
+  height: 800px;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-mid-main {
+  width: 100%;
+  background-color: red;
+  height: 10%;
+  margin-top: 20px;
+}
+.top-mid-mid {
+  width: 100%;
+  background-color: red;
+  height: 50%;
+  margin-top: 20px;
+}
+.top-mid-bottom {
+  width: 100%;
+  background-color: red;
+  height: 40%;
+  margin-top: 20px;
+}
+.top_right_main {
+  margin-top: 20px;
+  background-color: greenyellow;
+  width: 90%;
+  height: 250px;
+}
+
+.middle_right_main {
+  margin-top: 20px;
+  background-color: greenyellow;
+  width: 90%;
+  height: 150px;
+}
+
+.bottom_right_main {
+  margin-top: 20px;
+  background-color: green;
+  width: 90%;
+  height: 300px;
+}
+
+.input_avatar_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_avatar_container > input {
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  color: grey;
+  padding: 10px;
+}
+
+.bottom_icon_container {
+  width: 80%;
+  height: 40px;
+}
+
+.bottom_icon_container > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 100px;
+  gap: 60px;
+}
+
+.bottom_icon_container i {
+  margin-right: 10px;
+  display: inline;
+}
+.linkedin_news_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  height: 40px;
+  background-color: blueviolet;
+}
+.list_news_bullet {
+  padding: 20px;
+  font-weight: 300;
+}
+
+.views {
+  color: grey;
+  font-size: small;
+}
+
+.unilever {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin: 10px;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.unilever-text > p {
+  font-size: smaller;
+}
+.unilever > button {
+  display: block;
+  text-align: left;
+}
+
+.button_contianer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.btn-unilever {
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+}
+.gradient {
+  background-color: pink;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.avatar-left {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -27%;
+  right: 35%;
+}
+
+.left-main .name {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.left-main .designation {
+  margin-top: 5px;
+  text-align: center;
+  font-size: smaller;
+}
+
+hr {
+  margin-top: 5px;
+  color: black;
+}
+
+.text-view_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: black;
+}
+
+.access,
+.premium {
+  padding: 5px;
+}
+.my-items {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.tensorflow_container {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.avatar_gradient_top_left_main_container {
+  background-color: red;
+  border-radius: 20px;
+}
+.recent {
+  padding: 10px;
+}
+
+.tensor-text {
+  color: grey;
+  font-size: medium;
+  margin-left: 10px;
+  padding: 6px;
+}
+.block {
+  display: block;
+  margin-top: 5px;
+}
+.groups-text {
+  padding: 10px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  list-style-type: none;
+}
+.group > ul > li {
+  list-style-type: none;
+}
+.group > ul > li > i {
+  margin-right: 12px;
+  margin-top: 2px;
+}
+.hashtags {
+  padding: 10px;
+}
+
+.myntra-logo {
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.myntra-image-left {
+  width: 70px;
+  height: 70px;
+}
+.myntra-logo-mid {
+  text-align: center;
+}
+.left_myntra-fashion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.space-between-container {
+  display: flex;
+  justify-content: space-between;
+}
+.right-three-dots {
+  padding: 10px;
+}
+.myntra-followers {
+  margin-top: 20px;
+}
+
+.mi-myntra {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.like-strip {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.comment {
+  margin-left: 10px;
+}
+
+.like_share-comment-count-sectin > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.like_share-comment-count-sectin > ul > li > i {
+  margin-right: 10px;
+}
+
+.nav-right ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+}
+.nav-right ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items {
+  text-align: center;
+}
+
+.try {
+  text-align: center;
+}
+
+.caret {
+  margin-left: 10px;
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f0f2f5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  color: #333;
+  outline: none;
+}
+
+.search-container input::placeholder {
+  color: #888;
+}
+
+.search-container i {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+  pointer-events: none;
+}
